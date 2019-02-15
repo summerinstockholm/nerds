@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Nёrds</title>
+</head>
+<body>
+    <header class="main-header">
+        <section class="main-header-logo">
+            <div class="section-item-1"><img src="svg/nerds-logo.svg" alt="Лого"></div>
+        </section>
+        <ul class="main-header-menu">
+            <li class="section-item-2"><a class="active" href="#">Студия</a></li>
+            <li class="section-item-3"><a href="#">Клиенты</a></li>
+            <li class="section-item-4"><a href="#">Магазины</a></li>
+            <li class="section-item-5"><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="main-header-basket">
+            <li class="section-item-6"><a class="main-header-basket-link"href="">Корзина</a></li>
+        </ul>
+    </header>
+    <header class="header-header">
+        <div class="header-header-wrapper">
+            <h2>Магазин готовых шаблонов</h2>
+        </div>
+    </header>
+    <main>
+
+
+        <form class="catalog-form" method="get" action="https://echo.htmlacademy.ru">
+            <fieldset class="filter-item">
+                <legend>Стоимость:</legend>
+                <div class="range-filter">
+                    <div class="range-controls">
+                        <div class="scale">
+                            <div class="bar"></div>
+                        </div>
+                        <div class="toggle toggle-min"></div>
+                        <div class="toggle toggle-max"></div>
+                    </div>
+                    <div class="price-controls">
+                        <label class="min-price" for="">от <input name="min-price" type="text" value="0"></label>
+                        <label class="max-price" for="">до <input name="max-price" type="text" value="15000"></label>
+                    </div>
+                </div>
+                <div class="radio-item">
+                    <h3>Сетка</h3>
+                    <div class="radio-controls">
+                        <p><input type="radio" name="grid" checked>Адаптивная</p>
+                        <p><input type="radio" name="grid">Фиксированная</p>
+                        <p><input type="radio" name="grid">Резиновая</p>
+                    </div>
+                </div>
+                <div class="checkbox-item">
+                    <h3>Особенности</h3>
+                    <div class="checkbox-controls">
+                        <p><input type="checkbox" name="specials" checked>Слайдер</p>
+                        <p><input type="checkbox" name="specials">Блок приемуществ</p>
+                        <p><input type="checkbox" name="specials" checked>Новости</p>
+                        <p><input type="checkbox" name="specials">Галерея</p>
+                        <p><input type="checkbox" name="specials">Корзина</p>
+                    </div>
+                </div>
+                <div class="filter-button">
+                    <button class="show-button"><a class="show-button-link" href="#">Показать</a></button>
+                </div>
+
+            </fieldset>
+
+
+
+
+            <!--Другие элементы формы-->
+        </form>
+    </main>
+
+</body>
+</html>
