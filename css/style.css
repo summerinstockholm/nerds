@@ -434,7 +434,7 @@ a {
     margin-top: 75px;
 }
 
-info-stats-wrapper-image {
+.info-stats-wrapper-image {
 
 }
 .info-stats-wrapper-h {
@@ -735,9 +735,10 @@ iframe {
 /*catalog.html*/
 
 .header-header {
-    width: 1440px;
+  /*  width: 1440px;*/
     height: 220px;
     background-color: #eee;
+    margin: 0 auto;
 }
 
 .header-header-wrapper {
